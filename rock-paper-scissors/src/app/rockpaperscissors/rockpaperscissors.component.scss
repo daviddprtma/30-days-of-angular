@@ -1,0 +1,72 @@
+.game-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.choice {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.choice button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  background-color: #f9f9f9;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 17px;
+  font-size: 17px;
+  transition: 0.2s background-color 0.2s;
+}
+
+.choice button:hover {
+  transform: scale(1.1);
+  background-color: #ececec;
+}
+
+.choice img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.results img {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+img {
+  border-radius: 3px;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.win {
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: color 0.3s ease-out;
+}
+.lose {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0,0.2);
+  transition: color 0.3s ease-in;
+}
+.tie {
+  color: orange;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: color 0.3s ease-in-out;
+}

@@ -1,0 +1,38 @@
+<div class="game-container">
+  <h1>Rock, Paper, Scissors</h1>
+  <div class="choice">
+    <button *ngFor="let option of choice" (click)="play(option)">
+      <img
+        src="assets/public/{{ option | lowercase }}.jpg"
+        alt="{{ option }}"
+      />
+      {{ option }}
+    </button>
+  </div>
+  <div class="results" *ngIf="playerChoice && computerChoice">
+    <h2>Results</h2>
+    <p>
+      You chose: {{ playerChoice }}
+      <img
+        src="assets/public/{{ playerChoice | lowercase }}.jpg"
+        alt="{{ playerChoice }}"
+      />
+    </p>
+    <p>
+      Computer chose: {{ computerChoice }}
+      <img
+        src="assets/public/{{ computerChoice | lowercase }}.jpg"
+        alt="{{ computerChoice }}"
+      />
+    </p>
+    <p
+      [ngClass]="{
+        'win': result === 'You win!',
+        'lose': result === 'You lose!',
+        'tie': result === 'It\'s a tie!'
+      }"
+    >
+      Result: {{ result }}
+    </p>
+  </div>
+</div>
