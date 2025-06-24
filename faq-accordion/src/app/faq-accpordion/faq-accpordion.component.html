@@ -1,0 +1,12 @@
+<div class="faq-container">
+  <div
+    class="faq-item"
+    *ngFor="let faq of faqs; let i = index"
+    (click)="toggleFaq(i)"
+  >
+    <div class="faq-question">{{ faq.question }}</div>
+    <div class="faq-answer" *ngIf="openedIndex === i" [@slideToggle]>
+      {{ faq.answer }}
+    </div>
+  </div>
+</div>
