@@ -1,0 +1,17 @@
+<div class="container">
+  <h1 class="title">Dynamic Filter List</h1>
+  <input
+    type="text"
+    placeholder="Search..."
+    [(ngModel)]="searchText"
+    class="form-control search-box"
+  />
+  <ul class="list-group">
+    <li *ngFor="let item of items | filter : searchText" class="list-group-item">
+      {{ item }}
+    </li>
+    <div class="no-results" *ngIf="!(items | filter : searchText)?.length">
+      No results found.
+    </div>
+  </ul>
+</div>
