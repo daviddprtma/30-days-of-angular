@@ -1,0 +1,16 @@
+<div class="clock">
+  <div
+    class="number"
+    *ngFor="let num of clockNumbers"
+    [style.top]="num.position.top"
+    [style.left]="num.position.left"
+  >
+
+    {{ num.number }}
+  </div>
+  <div class="center">
+    <div class="hand hour" [style.transform]=" 'rotate(' + hours + 'deg)' "></div>
+    <div class="hand minute" [style.transform]=" 'rotate(' + minutes + 'deg)' "></div>
+    <div class="hand second" [style.transform]=" 'rotate(' + seconds + 'deg)' "></div>
+  </div>
+</div>
