@@ -1,0 +1,50 @@
+<div class="form-container">
+  <h2>Feedback Form For DTS Work😊</h2>
+  <form #feedbackForm="ngForm" (ngSubmit)="onSubmit(feedbackForm)">
+    <div class="form-group">
+      <label for="name">Name: </label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        autocomplete="off"
+        [(ngModel)]="feedback.name"
+        [ngModelOptions]="{ standalone: true }"
+        #name="ngModel"
+        required
+      />
+      <div class="error" *ngIf="name.invalid && name.touched">
+        <!-- placeholder for validation error -->
+        Name is required
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="feedback">Feedback: </label>
+      <textarea
+        id="feedback"
+        name="feedback"
+        rows="4"
+        autocomplete="off"
+        [(ngModel)]="feedback.feedback"
+        [ngModelOptions]="{ standalone: true }"
+        #feedbackText="ngModel"
+        required
+      ></textarea>
+      <div class="error" *ngIf="feedbackText.invalid && feedbackText.touched">
+        <!-- placeholder for feedback error -->
+        Feedback is required
+      </div>
+    </div>
+
+    <!-- make disabled button if there's no input -->
+    <button type="submit" [disabled]="!feedback.name || !feedback.feedback">
+      Submit Feedback
+    </button>
+  </form>
+
+  <div class="success" *ngIf="submitted">
+    <!-- placeholder for success -->
+    Thank you for your feedback, {{ feedback.name }}!
+  </div>
+</div>
