@@ -1,0 +1,99 @@
+<div class="container">
+  <h2>Contact Form</h2>
+
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" autocomplete="off">
+    <div>
+      <label for="name">Name: </label>
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter your name"
+        formControlName="name"
+        [class.error]="name?.touched && name?.invalid"
+      />
+      <div class="error-msg">
+        <!-- placeholder for error name -->
+        <ng-container *ngIf="name?.touched && name?.invalid">
+          <span *ngIf="name?.errors?.['required']">Name is required.</span>
+          <span *ngIf="name?.errors?.['minlength']">Minimum length is 3.</span>
+        </ng-container>
+      </div>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter your email"
+        formControlName="email"
+        [class.error]="email?.touched && email?.invalid"
+      />
+      <div class="error-msg">
+        <!-- placeholder for error msg email -->
+        <ng-container *ngIf="email?.touched && email?.invalid">
+          <span *ngIf="email?.errors?.['required']">Email is required.</span>
+          <span *ngIf="email?.errors?.['email']">Invalid email format.</span>
+        </ng-container>
+      </div>
+    </div>
+    <div>
+      <label for="subject">Subject</label>
+      <input
+        type="text"
+        id="subject"
+        placeholder="Enter the subject"
+        formControlName="subject"
+        [class.error]="subject?.touched && subject?.invalid"
+      />
+      <div class="error-msg">
+        <!-- placeholder for error subject -->
+        <ng-container *ngIf="subject?.touched && subject?.invalid">
+          <span *ngIf="subject?.errors?.['required']"
+            >Subject is required.</span
+          >
+          <span *ngIf="subject?.errors?.['minlength']"
+            >Minimum length is 3.</span
+          >
+        </ng-container>
+      </div>
+    </div>
+
+    <div>
+      <label for="message">Message</label>
+      <textarea
+        id="message"
+        placeholder="Enter your message"
+        rows="5"
+        formControlName="message"
+        [class.error]="message?.touched && message?.invalid"
+      ></textarea>
+      <div class="error-msg">
+        <!-- placeholder for error message -->
+        <ng-container *ngIf="message?.touched && message?.invalid">
+          <span *ngIf="message?.errors?.['required']"
+            >Message is required.</span
+          >
+          <span *ngIf="message?.errors?.['minlength']"
+            >Minimum length is 10.</span
+          >
+        </ng-container>
+      </div>
+    </div>
+
+    <button class="submit" [disabled]="contactForm.invalid">Submit</button>
+  </form>
+
+  <div class="success-msg">
+    <!-- placeholder for sucess msg -->
+    <ng-container *ngIf="submissionStatus === 'success'">
+      <p>Form submitted successfully!</p>
+    </ng-container>
+  </div>
+
+  <div class="error-msg">
+    <!-- placeholder for error msg -->
+    <ng-container *ngIf="submissionStatus === 'error'">
+      <p>Failed to submit message. Please try again</p>
+    </ng-container>
+  </div>
+</div>
