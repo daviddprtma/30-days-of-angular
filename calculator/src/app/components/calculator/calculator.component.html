@@ -1,0 +1,15 @@
+<div class="calculator">
+  <app-display [value]="displayValue"></app-display>
+  <div class="buttons">
+    <ng-container *ngFor="let row of buttonLayout">
+      <ng-container *ngFor="let button of row">
+        <button
+          (click)="handleInput(button)"
+          [class.operator]="operators.includes(button)"
+        >
+          {{ button }}
+        </button>
+      </ng-container>
+    </ng-container>
+  </div>
+</div>
