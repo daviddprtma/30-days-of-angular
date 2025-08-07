@@ -38,6 +38,6 @@ export class CurrencyConverterService {
     if (rate === null) {
       return 0; // Return 0 if no conversion rate is found
     }
-    return parseFloat((amount * rate).toFixed(0)); 
+    return parseFloat((amount * rate).toFixed(2)); // Convert and round to 2 decimal places
   }
 }
