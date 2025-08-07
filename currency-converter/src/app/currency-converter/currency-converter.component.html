@@ -1,0 +1,81 @@
+<div class="converter-container">
+  <h2>Currency Converter</h2>
+  <p class="subtitle">
+    The most accurate currency converter with real-time exchange rates. Made by
+
+    <span class="provider"> ❤️ David Pratama. </span>
+  </p>
+
+  <div class="currency-row">
+    <div class="currency-column">
+      <label for="sourceCurrency">From: </label>
+      <select
+        name=""
+        id="sourceCurrency"
+        [(ngModel)]="sourceCurrency"
+        (ngModelChange)="updateConversionRate()"
+      >
+        <option *ngFor="let currency of currencies" [value]="currency">
+          {{ getFlagCurrency(currency) }}
+        </option>
+      </select>
+    </div>
+
+    <div class="currency-column">
+      <label for="targetCurrency">To: </label>
+      <select
+        name=""
+        id="targetCurrency"
+        [(ngModel)]="targetCurrency"
+        (ngModelChange)="updateConversionRate()"
+      >
+        <option *ngFor="let currency of currencies" [value]="currency">
+          {{ getFlagCurrency(currency) }}
+        </option>
+      </select>
+    </div>
+  </div>
+  <div class="amount-row">
+    <div class="amount-column">
+      <label for="amount">Amount: </label>
+      <input
+        type="number"
+        id="amount"
+        [(ngModel)]="amount"
+        (ngModelChange)="updateConversionRate()"
+        placeholder="Enter amount"
+      />
+    </div>
+    <div class="converted-column">
+      <label for="convertedAmount">Converted Amount</label>
+      <input
+        type="text"
+        id="convertedAmount"
+        [value]="result | currency : targetCurrency"
+        readonly
+        placeholder="Converted amount"
+      />
+    </div>
+  </div>
+
+  <button
+    class="convert-button"
+    (click)="convertCurrency()"
+    [disabled]="sourceCurrency === targetCurrency"
+  >
+    Convert
+  </button>
+
+  <div class="results" *ngIf="conversionRate !== null">
+    <div class="conversion-rate">
+      <h3>Conversion Rate</h3>
+      <p>
+        {{ conversionRate }}
+      </p>
+    </div>
+    <div class="converted-amount">
+      <h3>Converted Amount:</h3>
+      <p>{{ result | currency : targetCurrency }}</p>
+    </div>
+  </div>
+</div>

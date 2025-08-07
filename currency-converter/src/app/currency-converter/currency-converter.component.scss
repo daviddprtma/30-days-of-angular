@@ -1,0 +1,131 @@
+.converter-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 12px;
+  color: #777777;
+  margin-bottom: 20px;
+}
+
+.provider {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.currency-row,
+.amount-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.currency-column,
+.amount-column,
+.converted-column {
+  flex: 1;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555555;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 50px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  appearance: none;
+}
+
+.converted-column input {
+  background-color: #f9f9f9;
+  cursor: not-allowed;
+}
+
+.convert-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.convert-button:hover {
+  background-color: #0056b3;
+}
+
+.convert-button:disabled {
+  background-color: #cccccc;
+  color: #777777;
+  cursor: not-allowed;
+  opacity: 0.7;
+  transition: none;
+}
+
+.results {
+  display: flex;
+  margin-top: 25px;
+  text-align: center;
+  gap: 20px;
+}
+
+.conversion-rate,
+.converted-amount {
+  flex: 1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+.results h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #555555;
+}
+
+.results p {
+  font-size: 16px;
+  color: #333333;
+}
+
+.conversion-rate p,
+.converted-amount p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.conversion-rate div {
+  display: flex;
+  justify-content: center;
+}
