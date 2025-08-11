@@ -41,3 +41,8 @@ testem.log
 .DS_Store
 Thumbs.db
 .vercel
+
+# Ignore all environment files except base and production
+src/environments/environment.*.ts
+!src/environments/environment.ts
+!src/environments/environment.prod.ts
