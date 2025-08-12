@@ -13,3 +13,5 @@ Mini Calculator: https://mini-calculator-tan.vercel.app/
 Currency Converter: https://currency-converter-nine-lovat.vercel.app/
 
 Weather: https://weather-location-5gj62dx16-daviddprtmas-projects.vercel.app/
+
+Emoji Search: https://emoji-search-three-tawny.vercel.app/

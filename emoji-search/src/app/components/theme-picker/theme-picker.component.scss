@@ -1,0 +1,19 @@
+.theme-picker{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--text-color);
+    background-color: transparent;
+}
+
+button:hover{
+    opacity: 0.8;
+}

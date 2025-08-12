@@ -1,0 +1,186 @@
+[
+  { "symbol": "😀", "name": "Grinning Face", "category": "Smileys & Emotion" },
+  {
+    "symbol": "😂",
+    "name": "Face with Tears of Joy",
+    "category": "Smileys & Emotion"
+  },
+  { "symbol": "❤️", "name": "Red Heart", "category": "Smileys & Emotion" },
+  { "symbol": "👍", "name": "Thumbs Up", "category": "Smileys & Emotion" },
+  {
+    "symbol": "😊",
+    "name": "Smiling Face with Smiling Eyes",
+    "category": "Smileys & Emotion"
+  },
+  { "symbol": "😍", "name": "Heart Eyes", "category": "Smileys & Emotion" },
+  { "symbol": "😢", "name": "Crying Face", "category": "Smileys & Emotion" },
+  {
+    "symbol": "😎",
+    "name": "Smiling Face with Sunglasses",
+    "category": "Smileys & Emotion"
+  },
+  { "symbol": "🤔", "name": "Thinking Face", "category": "Smileys & Emotion" },
+  {
+    "symbol": "😇",
+    "name": "Smiling Face with Halo",
+    "category": "Smileys & Emotion"
+  },
+  {
+    "symbol": "😭",
+    "name": "Loudly Crying Face",
+    "category": "Smileys & Emotion"
+  },
+  {
+    "symbol": "🥲",
+    "name": "Smiling Face with Tear",
+    "category": "Smileys & Emotion"
+  },
+  { "symbol": "😡", "name": "Angry Face", "category": "Smileys & Emotion" },
+  {
+    "symbol": "😜",
+    "name": "Winking Face with Tongue",
+    "category": "Smileys & Emotion"
+  },
+  { "symbol": "🤩", "name": "Star-Struck", "category": "Smileys & Emotion" },
+  { "symbol": "😴", "name": "Sleeping Face", "category": "Smileys & Emotion" },
+  {
+    "symbol": "😱",
+    "name": "Face Screaming in Fear",
+    "category": "Smileys & Emotion"
+  },
+  { "symbol": "🤯", "name": "Exploding Head", "category": "Smileys & Emotion" },
+  { "symbol": "🤗", "name": "Hugging Face", "category": "Smileys & Emotion" },
+  {
+    "symbol": "😋",
+    "name": "Face Savoring Food",
+    "category": "Smileys & Emotion"
+  },
+  { "symbol": "🤤", "name": "Drooling Face", "category": "Smileys & Emotion" },
+  {
+    "symbol": "😷",
+    "name": "Face with Medical Mask",
+    "category": "Smileys & Emotion"
+  },
+  {
+    "symbol": "🤒",
+    "name": "Face with Thermometer",
+    "category": "Smileys & Emotion"
+  },
+  {
+    "symbol": "🤕",
+    "name": "Face with Head-Bandage",
+    "category": "Smileys & Emotion"
+  },
+  { "symbol": "🥳", "name": "Partying Face", "category": "Smileys & Emotion" },
+  { "symbol": "😒", "name": "Unamused Face", "category": "Smileys & Emotion" },
+  {
+    "symbol": "🤬",
+    "name": "Face with Symbols on Mouth",
+    "category": "Smileys & Emotion"
+  },
+  { "symbol": "😬", "name": "Grimacing Face", "category": "Smileys & Emotion" },
+  {
+    "symbol": "🙃",
+    "name": "Upside-Down Face",
+    "category": "Smileys & Emotion"
+  },
+  {
+    "symbol": "😮",
+    "name": "Face with Open Mouth",
+    "category": "Smileys & Emotion"
+  },
+  {
+    "symbol": "😅",
+    "name": "Grinning Face with Sweat",
+    "category": "Smileys & Emotion"
+  },
+  {
+    "symbol": "😓",
+    "name": "Downcast Face with Sweat",
+    "category": "Smileys & Emotion"
+  },
+  { "symbol": "🤧", "name": "Sneezing Face", "category": "Smileys & Emotion" },
+  {
+    "symbol": "😈",
+    "name": "Smiling Face with Horns",
+    "category": "Smileys & Emotion"
+  },
+  { "symbol": "💩", "name": "Pile of Poo", "category": "Smileys & Emotion" },
+  {
+    "symbol": "🙄",
+    "name": "Face with Rolling Eyes",
+    "category": "Smileys & Emotion"
+  },
+  {
+    "symbol": "😞",
+    "name": "Disappointed Face",
+    "category": "Smileys & Emotion"
+  },
+  { "symbol": "🤝", "name": "Handshake", "category": "Smileys & Emotion" },
+  { "symbol": "🐶", "name": "Dog", "category": "Animals & Nature" },
+  { "symbol": "🐱", "name": "Cat", "category": "Animals & Nature" },
+  { "symbol": "🐰", "name": "Rabbit", "category": "Animals & Nature" },
+  { "symbol": "🐸", "name": "Frog", "category": "Animals & Nature" },
+  { "symbol": "🐥", "name": "Baby Chick", "category": "Animals & Nature" },
+  { "symbol": "🌸", "name": "Cherry Blossom", "category": "Animals & Nature" },
+  { "symbol": "🌳", "name": "Deciduous Tree", "category": "Animals & Nature" },
+  { "symbol": "🐝", "name": "Bee", "category": "Animals & Nature" },
+  { "symbol": "🐢", "name": "Turtle", "category": "Animals & Nature" },
+  { "symbol": "🐙", "name": "Octopus", "category": "Animals & Nature" },
+  { "symbol": "🐍", "name": "Snake", "category": "Animals & Nature" },
+  { "symbol": "🍎", "name": "Red Apple", "category": "Food & Drink" },
+  { "symbol": "🍕", "name": "Pizza", "category": "Food & Drink" },
+  { "symbol": "🎂", "name": "Birthday Cake", "category": "Food & Drink" },
+  { "symbol": "🍌", "name": "Banana", "category": "Food & Drink" },
+  { "symbol": "🍉", "name": "Watermelon", "category": "Food & Drink" },
+  { "symbol": "🍌", "name": "Banana", "category": "Food & Drink" },
+  { "symbol": "🍉", "name": "Watermelon", "category": "Food & Drink" },
+  { "symbol": "🥪", "name": "Sandwich", "category": "Food & Drink" },
+  { "symbol": "🍓", "name": "Strawberry", "category": "Food & Drink" },
+  { "symbol": "🍪", "name": "Cookie", "category": "Food & Drink" },
+  { "symbol": "🥩", "name": "Cut of Meat", "category": "Food & Drink" },
+  { "symbol": "🥚", "name": "Egg", "category": "Food & Drink" },
+  { "symbol": "🌮", "name": "Taco", "category": "Food & Drink" },
+  { "symbol": "🌭", "name": "Hot Dog", "category": "Food & Drink" },
+  { "symbol": "🍰", "name": "Shortcake", "category": "Food & Drink" },
+  { "symbol": "🍫", "name": "Chocolate Bar", "category": "Food & Drink" },
+  { "symbol": "🍦", "name": "Ice Cream", "category": "Food & Drink" },
+  { "symbol": "🍺", "name": "Beer Mug", "category": "Food & Drink" },
+  { "symbol": "🍷", "name": "Wine Glass", "category": "Food & Drink" },
+  { "symbol": "🥝", "name": "Kiwi Fruit", "category": "Food & Drink" },
+  { "symbol": "🍍", "name": "Pineapple", "category": "Food & Drink" },
+  { "symbol": "🍗", "name": "Poultry Leg", "category": "Food & Drink" },
+  { "symbol": "🥨", "name": "Pretzel", "category": "Food & Drink" },
+  { "symbol": "🍺", "name": "Beer Mug", "category": "Food & Drink" },
+  { "symbol": "🍟", "name": "French Fries", "category": "Food & Drink" },
+  { "symbol": "🥓", "name": "Bacon", "category": "Food & Drink" },
+  { "symbol": "🍣", "name": "Sushi", "category": "Food & Drink" },
+  { "symbol": "🍤", "name": "Shrimp", "category": "Food & Drink" },
+  { "symbol": "🥗", "name": "Green Salad", "category": "Food & Drink" },
+  { "symbol": "🍚", "name": "Cooked Rice", "category": "Food & Drink" },
+  { "symbol": "🍤", "name": "Shrimp", "category": "Food & Drink" },
+  { "symbol": "🍋", "name": "Lemon", "category": "Food & Drink" },
+  { "symbol": "🥥", "name": "Coconut", "category": "Food & Drink" },
+  { "symbol": "🥑", "name": "Avocado", "category": "Food & Drink" },
+  { "symbol": "🍗", "name": "Poultry Leg", "category": "Food & Drink" },
+  { "symbol": "🍑", "name": "Peach", "category": "Food & Drink" },
+  { "symbol": "🍌", "name": "Banana", "category": "Food & Drink" },
+  { "symbol": "🍏", "name": "Green Apple", "category": "Food & Drink" },
+  { "symbol": "🍙", "name": "Rice Ball", "category": "Food & Drink" },
+  { "symbol": "🥝", "name": "Kiwi Fruit", "category": "Food & Drink" },
+  { "symbol": "🥒", "name": "Cucumber", "category": "Food & Drink" },
+  { "symbol": "🍆", "name": "Eggplant", "category": "Food & Drink" },
+  { "symbol": "🍄", "name": "Mushroom", "category": "Food & Drink" },
+  { "symbol": "🥯", "name": "Bagel", "category": "Food & Drink" },
+  { "symbol": "🥕", "name": "Carrot", "category": "Food & Drink" },
+  { "symbol": "🍉", "name": "Watermelon", "category": "Food & Drink" },
+  { "symbol": "🍅", "name": "Tomato", "category": "Food & Drink" },
+  { "symbol": "🍍", "name": "Pineapple", "category": "Food & Drink" },
+  { "symbol": "🍇", "name": "Grapes", "category": "Food & Drink" },
+  { "symbol": "🥒", "name": "Cucumber", "category": "Food & Drink" },
+  { "symbol": "🍉", "name": "Watermelon", "category": "Food & Drink" },
+  { "symbol": "🥭", "name": "Mango", "category": "Food & Drink" },
+  { "symbol": "🍑", "name": "Peach", "category": "Food & Drink" },
+  { "symbol": "🥥", "name": "Coconut", "category": "Food & Drink" }
+]
+
