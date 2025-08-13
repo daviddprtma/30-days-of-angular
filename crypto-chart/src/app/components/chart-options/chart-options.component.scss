@@ -1,0 +1,64 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.crypto-options{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 300px;
+    padding: 16px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+}
+
+select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+    transition: border 0.3s ;
+}
+
+select:focus{
+    border-color: #4caf50;
+    outline: none;
+}
+
+button{
+    padding: 12px 24px;
+    background-color: #4caf50;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: #45a049;
+}
+
+button:active{
+    background-color: #388e3c;
+}
