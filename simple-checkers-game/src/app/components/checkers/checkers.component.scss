@@ -1,0 +1,90 @@
+.checkers-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-rows: repeat(8, 100px);
+  margin: auto;
+  width: 800px;
+  border: 2px solid #2e1503;
+  border-radius: 3px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #f0d9b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.dark-cell {
+  background-color: #b58863;
+}
+
+.dark-cell.selected {
+  background-color: #944707;
+}
+
+.piece {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.red {
+  background-color: red;
+}
+
+.black {
+  background-color: black;
+}
+
+.red-king {
+  background-color: darkred;
+}
+
+.black-king {
+  background-color: rgb(35, 35, 35);
+}
+
+.reset-button {
+  background-color: #462004;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  &:hover {
+    background-color: #944707;
+    transform: scale(1.05);
+  }
+
+  &:active {
+    background-color: #732505;
+  }
+}
